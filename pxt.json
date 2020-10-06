@@ -1,18 +1,15 @@
 {
-    "name": "makercloud_v2",
+    "name": "makercloud_koi",
     "version": "1.0.3",
     "description": "MQTT communication to Maker Cloud with KittenWiFi",
     "license": "MIT",
     "dependencies": {
-        "core": "*"
+        "core": "*",
+        "SSD1306_OLED": "github:tinkertanker/pxt-oled-ssd1306#v2.0.10"
     },
     "files": [
         "README.md",
-        "main.ts",
-        "_locales/zh-cn/makercloud_v2-strings.json",
-        "_locales/zh-cn/makercloud_v2-jsdoc-strings.json",
-        "_locales/zh-tw/makercloud_v2-strings.json",
-        "_locales/zh-tw/makercloud_v2-jsdoc-strings.json"
+        "main.ts"
     ],
     "public": true,
     "supportedTargets": [
