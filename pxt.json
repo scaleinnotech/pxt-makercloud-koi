@@ -4,8 +4,7 @@
     "description": "MQTT communication to Maker Cloud with KittenWiFi",
     "license": "MIT",
     "dependencies": {
-        "core": "*",
-        "SSD1306_OLED": "github:tinkertanker/pxt-oled-ssd1306#v2.0.10"
+        "core": "*"
     },
     "files": [
         "README.md",
