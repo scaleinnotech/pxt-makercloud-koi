@@ -1,7 +1,7 @@
 {
     "name": "makercloud_koi",
     "version": "1.1.0",
-    "description": "MQTT communication to Maker Cloud with KittenWiFi",
+    "description": "MQTT communication to Maker Cloud with KittenBot KOI",
     "license": "MIT",
     "dependencies": {
         "core": "*"
