@@ -1,0 +1,17 @@
+{
+  "MakerCloud_KOI.changeToSitServer|block": "MakerCloud Lab",
+  "MakerCloud_KOI.connectMakerCloudMQTT|block": "connect MakerCloud MQTT",
+  "MakerCloud_KOI.publishCoordinationToTopic|block": "publish to %topic about %lat, $lng",
+  "MakerCloud_KOI.publishKeyMessageToTopic|block": "publish to %topic about %key = $inText",
+  "MakerCloud_KOI.publishKeyValueToTopic|block": "publish to %topic about %key = $value",
+  "MakerCloud_KOI.publishToTopic|block": "publish to %topic about %message",
+  "MakerCloud_KOI.registerTopicKeyStringMessageHandler|block": "on MQTT %topic received",
+  "MakerCloud_KOI.registerTopicKeyValueMessageHandler|block": "on MQTT %topic received",
+  "MakerCloud_KOI.registerTopicMessageHandler|block": "on MQTT %topic received",
+  "MakerCloud_KOI.subscribeTopic|block": "subscribe %topics",
+  "MakerCloud_KOI|block": "MakerCloud_KOI",
+  "{id:category}MakerCloud_KOI": "MakerCloud_KOI",
+  "{id:group}Connection": "Connection",
+  "{id:group}Publish": "Publish",
+  "{id:group}Subscribe": "Subscribe"
+}
