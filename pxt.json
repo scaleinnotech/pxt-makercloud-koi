@@ -8,7 +8,11 @@
     },
     "files": [
         "README.md",
-        "main.ts"
+        "main.ts",
+        "_locales/zh-tw/makercloud_koi-strings.json",
+        "_locales/zh-tw/makercloud_koi-jsdoc-strings.json",
+        "_locales/zh-cn/makercloud_koi-strings.json",
+        "_locales/zh-cn/makercloud_koi-jsdoc-strings.json"
     ],
     "public": true,
     "supportedTargets": [
