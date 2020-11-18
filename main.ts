@@ -193,14 +193,14 @@ namespace MakerCloud_KOI {
 
     /**
      * Process received MakerCloud MQTT Message
-     * @param inTopic to inTopic ,eg: "topic"
      * @param inData to inData ,eg: "data"
+     * @param inTopic to inTopic ,eg: "topic"
      */
     //% blockId=mc_kt_received_mqtt_message
-    //% block="Process MakerCloud MQTT Message %topic %data"
+    //% block="Process MakerCloud MQTT Message %data %topic"
     //% group="Subscribe"
     //% weight=104
-    export function receivedMakerCloudMQTTMessage(inTopic: string, inData: string) {
+    export function receivedMakerCloudMQTTMessage(inData: string, inTopic: string) {
         let makerCloudMessage = parseMakerCloudMessage(inData);
         handleTopicStringMessage(inTopic, makerCloudMessage.stringMessageList);
         handleTopicKeyValueMessage(inTopic, makerCloudMessage.keyValueMessagList)
@@ -261,27 +261,6 @@ namespace MakerCloud_KOI {
         }
         return n
     }
-
-    // serial.onDataReceived('\n', function () {
-    //     let a = serial.readUntil('\n')
-    //     if (a.charAt(0) == 'K') {
-    //         a = trim(a)
-    //         let b = a.slice(1, a.length).split(' ')
-    //         let cmd = parseInt(b[0])
-    //         control.raiseEvent(EventBusSource.MES_BROADCAST_GENERAL_ID, 0x8900+cmd)
-
-    //         if (cmd == 55 && b[2] != '') {
-    //             let topic: string = b[2]
-    //             let data: string = b[1]
-    //             let makerCloudMessage = parseMakerCloudMessage(data);
-    //             handleTopicStringMessage(topic, makerCloudMessage.stringMessageList);
-    //             handleTopicKeyValueMessage(topic, makerCloudMessage.keyValueMessagList)
-    //             handleTopicKeyStringMessage(topic, makerCloudMessage.keyStringMessageList)
-    //         }
-    //     }
-    // })
-
-    
 
     function subscribeMQTT(inTopics: string) {
         // let topicList = splitMessage(topics, ",")
