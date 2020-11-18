@@ -5,6 +5,7 @@
     "MakerCloud_KOI.publishKeyMessageToTopic|block": "发布到 %topic 关于 %key = $inText",
     "MakerCloud_KOI.publishKeyValueToTopic|block": "发布到 %topic 关于 %key = $value",
     "MakerCloud_KOI.publishToTopic|block": "发布到 %topic 关于 %message",
+    "MakerCloud_KOI.receivedMakerCloudMQTTMessage|block": "处理创客云MQTT讯息 %data %topic",
     "MakerCloud_KOI.registerTopicKeyStringMessageHandler|block": "当 MQTT %topic 收到",
     "MakerCloud_KOI.registerTopicKeyValueMessageHandler|block": "当 MQTT %topic 收到",
     "MakerCloud_KOI.registerTopicMessageHandler|block": "当 MQTT %topic 收到",
